@@ -21,7 +21,7 @@ This repository contains my first multi-page portfolio website, built as part of
 
 ## Live Link
 You can view my live portfolio here: 
-[https://sharleensalma.github.io/iyf-s10-week-01-sharleensalma](https://sharleensalma.github.io/iyf-s10-week-01-sharleensalma)
+[https://s7085751-afk.github.io/iyf-s10-week-01-sharleensalma.git]
 
 ## Task Checklist
 - [x] Environment Setup (VS Code, Extensions, Git)

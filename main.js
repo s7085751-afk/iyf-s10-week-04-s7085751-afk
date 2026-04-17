@@ -411,7 +411,19 @@ console.log("10 / 0 =", calculate(10, "/", 0));     // Error handling
 console.log("10 % 3 =", calculate(10, "%", 3));
 console.log("2 ** 8 =", calculate(2, "**", 8));
 console.log("10 $ 5 =", calculate(10, "$", 5));      // Invalid operator
+// Optional: Interaction via prompt
+function runInteractiveCalculator() {
+    const n1 = prompt("Enter first number:");
+    const op = prompt("Enter operator (+, -, *, /, %, **):");
+    const n2 = prompt("Enter second number:");
+    
+    const result = calculate(n1, op, n2);
+    alert(`Result: ${result}`);
+    console.log(`User Calculation: ${n1} ${op} ${n2} = ${result}`);
+}
 
+// Uncomment the line below to make it pop up when the page loads:
+// runInteractiveCalculator();
 // ============================================================
 // TASK 8.1: ARRAYS 🟢
 // Time: 40 minutes
